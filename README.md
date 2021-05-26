@@ -13,6 +13,7 @@ Given a fixed small set of learned object queries, DETR reasons about the relati
 
 ## Train
 `python data2coco.py` change the data to cocoformat and store it to json file in my-dataset/annotations
+
 `python main.py --dataset_file word --data_path ./my-dataset/  --resume detr-r101-dc5.pth --epochs 300 `
 
 ## Test
