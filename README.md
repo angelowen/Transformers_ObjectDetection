@@ -1,4 +1,5 @@
 **DE⫶TR**: End-to-End Object Detection with Transformers
+`Training with my own dataset to detect chinese word`
 ========
 
 
@@ -19,7 +20,7 @@ Given a fixed small set of learned object queries, DETR reasons about the relati
 
 
 # Pretrained Model 
-* https://github.com/angelowen/Transformers_ObjectDetection#model-zoo
+* https://github.com/facebookresearch/detr?utm_source=catalyzex.com#model-zoo
 
 ## Data preparation
 
@@ -29,4 +30,6 @@ CustomDataset/
   train/    # train images
   val/      # val images
 ```
-
+## Reference
+* https://ai.facebook.com/blog/end-to-end-object-detection-with-transformers/
+* https://github.com/facebookresearch/detr?utm_source=catalyzex.com 
